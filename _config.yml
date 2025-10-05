@@ -9,7 +9,6 @@ description: >- # this means to ignore newlines until "baseurl:"
   MD/Computational Neuroscientist, Postdoc @ MIT Picower
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://dgsakelliadou.github.io" # the base hostname & protocol for your site
-twitter_username: your_twitter_username
 github_username:  dgsakelliadou
 
 # Build settings
@@ -17,6 +16,9 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
+# Single page configuration
+header_pages: []  # This removes navigation menu
 
 # Exclude from processing.
 exclude:
