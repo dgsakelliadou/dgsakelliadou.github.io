@@ -16,6 +16,7 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 # Single page configuration
 header_pages: []  # This removes navigation menu
